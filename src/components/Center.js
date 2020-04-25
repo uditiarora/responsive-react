@@ -2,7 +2,9 @@ import React from 'react'
 
 function Center(){
     return(
-        <div></div>
+        <div className="center">
+            
+        </div>
     )
 }
 export default Center;

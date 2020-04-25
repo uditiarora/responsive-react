@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-direction: row;
+    height: 90vh;
+    background-color: #f0f0f0;
+    margin: 5vh;
+}
+.left{
+    height: 85vh;
+    margin: 2.5vh;
+    background-color: #950740;
+    flex-grow: 1;
+}
+
+.right{
+    height: 85vh;
+    margin: 2.5vh;
+    background-color: #950740;
+    flex-grow: 1;
+}
+
+.center{
+    height: 85vh;
+    margin: 2.5vh;
+    background-color: #950740;
+    flex-grow: 3;
+}
