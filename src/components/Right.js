@@ -1,9 +1,8 @@
 import React from 'react';
 
-function Right(){
+function Right(props){
     return(
-        <div className="right">
-
+        <div className="right" style = {{flexGrow: props.grow , borderWidth:props.border}}>
         </div>
     )
 }
