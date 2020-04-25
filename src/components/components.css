@@ -26,7 +26,7 @@ div{
 }
 .left{
     height: 85vh;
-    margin: 2.5vh;
+    margin: 2.5vh 0;
     background-color: #950740;
     background-image: linear-gradient(to right bottom, #5600d8, #5000c4, #4a00b0, #44009d, #3d008a, #3a0082, #37007a, #340072, #340072, #340072, #340072, #340072);    flex-grow: 2;
     box-shadow: 0 2.8px 2.2px rgba(0, 0, 0, 0.034),
@@ -41,7 +41,7 @@ div{
 
 .right{
     height: 85vh;
-    margin: 2.5vh;
+    margin: 2.5vh 0;
     background-color: #950740;
     background-image: linear-gradient(to right bottom, #5600d8, #5000c4, #4a00b0, #44009d, #3d008a, #3a0082, #37007a, #340072, #340072, #340072, #340072, #340072);    flex-grow: 2;
     flex-grow: 2;
@@ -73,27 +73,27 @@ div{
     flex-direction: row;
     flex-wrap: wrap;
     height: 75vh;
-    margin: 5vh;
+    margin: 5vh 0; 
     justify-content: space-evenly;
 }
 .inner1{
     background-color: #e200a1;
     background-image: linear-gradient(to bottom, #e200a1, #ec0095, #f40088, #fa007b, #ff146f);
-    width: 70%;
+    width: 60%;
     height: 20vh;
     border: solid 3px #000000;
 }
 .inner2{
     background-color: #e200a1;
     background-image: linear-gradient(to bottom, #e200a1, #ec0095, #f40088, #fa007b, #ff146f);
-    width: 20%;    
+    width: 25%;    
     height: 20vh;
     border: solid 3px #000000;
 }
 .inner3{
     background-color: #ff146f;
     background-image: linear-gradient(to bottom, #ff146f, #ff3962, #ff5258, #ff674f, #ff7a4a);
-    width: 20%;
+    width: 15%;
     height: 20vh;
     border: solid 3px #000000;
 }
@@ -101,7 +101,7 @@ div{
 .inner4{
     background-color: #ff7a4a;
     background-image: linear-gradient(to bottom, #ff7a4a, #ff8e4a, #ffa24d, #ffb554, #ffc75f);
-    width: 45%;
+    width: 40%;
     height: 20vh;
     border: solid 3px #000000;
 }
